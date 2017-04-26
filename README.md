@@ -1,6 +1,6 @@
 # npmtest-dotenv
 
-#### test coverage for  [dotenv (v4.0.0)](https://github.com/motdotla/dotenv#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-dotenv.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dotenv) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dotenv.svg)](https://travis-ci.org/npmtest/node-npmtest-dotenv)
+#### basic test coverage for  [dotenv (v4.0.0)](https://github.com/motdotla/dotenv#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-dotenv.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dotenv) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dotenv.svg)](https://travis-ci.org/npmtest/node-npmtest-dotenv)
 
 #### Loads environment variables from .env file
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-dotenv/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-dotenv/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-dotenv/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-dotenv/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dotenv/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dotenv/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-dotenv/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-dotenv/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dotenv/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dotenv/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-dotenv/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-dotenv/build/coverage.html/index.html)
 
@@ -101,7 +101,8 @@
         "pretest": "npm run lint",
         "test": "lab test/* -r lcov | coveralls"
     },
-    "version": "4.0.0"
+    "version": "4.0.0",
+    "bin": {}
 }
 ```
 
